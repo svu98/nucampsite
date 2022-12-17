@@ -13,13 +13,14 @@ $(function() {  // Handler for .ready() called.
         }
     });
 
+    // Show modal for "reserveButton"
     $("#reserveButton").click(function(){
         $("#reserveModal").modal('show');
     });
 
+    // Show modal for "loginButton"
     $("#loginButton").click(function(){
         $("#loginModal").modal('show');
     });
 
-    
 });
